@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"golang.org/x/crypto/openpgp"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/sideband"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/AlexandreCarlton/go-git/config"
+	"github.com/AlexandreCarlton/go-git/plumbing"
+	"github.com/AlexandreCarlton/go-git/plumbing/object"
+	"github.com/AlexandreCarlton/go-git/plumbing/protocol/packp/sideband"
+	"github.com/AlexandreCarlton/go-git/plumbing/transport"
 )
 
 // SubmoduleRescursivity defines how depth will affect any submodule recursive

@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/AlexandreCarlton/go-git/plumbing"
 )
 
 const (

@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/objfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/dotgit"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/AlexandreCarlton/go-git/plumbing"
+	"github.com/AlexandreCarlton/go-git/plumbing/cache"
+	"github.com/AlexandreCarlton/go-git/plumbing/format/idxfile"
+	"github.com/AlexandreCarlton/go-git/plumbing/format/objfile"
+	"github.com/AlexandreCarlton/go-git/plumbing/format/packfile"
+	"github.com/AlexandreCarlton/go-git/plumbing/storer"
+	"github.com/AlexandreCarlton/go-git/storage/filesystem/dotgit"
+	"github.com/AlexandreCarlton/go-git/utils/ioutil"
 
 	"gopkg.in/src-d/go-billy.v4"
 )

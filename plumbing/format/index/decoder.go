@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/binary"
+	"github.com/AlexandreCarlton/go-git/plumbing"
+	"github.com/AlexandreCarlton/go-git/utils/binary"
 )
 
 var (

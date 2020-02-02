@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/AlexandreCarlton/go-git/plumbing"
+	"github.com/AlexandreCarlton/go-git/plumbing/cache"
+	"github.com/AlexandreCarlton/go-git/plumbing/format/idxfile"
+	. "github.com/AlexandreCarlton/go-git/plumbing/format/packfile"
+	"github.com/AlexandreCarlton/go-git/plumbing/storer"
+	"github.com/AlexandreCarlton/go-git/storage/filesystem"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"
